@@ -1,5 +1,5 @@
 ---
-title: "Prediction vs Inference"
+title: "Prediction and Inference"
 author: "Dr Kristy Robledo"
 institute: "The University of Sydney"
 format:
