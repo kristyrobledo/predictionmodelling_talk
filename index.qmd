@@ -240,6 +240,12 @@ basically - baseline risk + clinical trial effect -> personalised care -> policy
 Footers for comments, often with links to further resources. Doesn't show up when printing the slides.
 :::
 
+# Methods for developing predictive models
+
+
+##  {background-image="wordcloud_pred.png" background-size="contain"}
+
+
 # Prediction example: T4DM risk score model
 
 ## Development cohort: T4DM trial
@@ -411,4 +417,6 @@ Given this under-prediction, recalibration in the large was performed and the in
 
 # Inference example: T4DM Mediation analysis
 
-## References
+## Thanks
+
+Slides available at: [https://kristyrobledo.github.io/predictionmodelling_talk/#/title-slide](https://kristyrobledo.github.io/predictionmodelling_talk/#/title-slide)
