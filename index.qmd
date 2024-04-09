@@ -421,13 +421,16 @@ Given this under-prediction, recalibration in the large was performed and the in
 
 ##  Mediation analysis
 
+:::incremental
 - tool to disentangle potential causal pathways in data from clinical trials
 - T4DM found a 40% reduction in diabetes with testosterone treatment 
 - also changes in body composition with T treatment (decreased fat mass, increased muscle mass)
-- was it the testosterone treatment? Or the changes in body composition that led to the reduction in diabetes?
+- was it the direct effect of testosterone treatment? Or the testosterone-induced changes in body composition?
+:::
 
+:::fragment
 ![](mediation.PNG)
-
+:::
 
 
 :::notes 

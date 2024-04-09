@@ -644,8 +644,8 @@ size of benefit
 </div><div class="column" style="width:70%&quot;;">
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-890506e8a2bb5b81bf3b" style="width:960px;height:300px;" class="grViz html-widget "></div>
-<script type="application/json" data-for="htmlwidget-890506e8a2bb5b81bf3b">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HbA1c and 2-hour glucose within 6 months (baseline, n=2026)\"]\n  rec2 [label = \"baseline 2-hour glucose <11.1mmol/L & HbA1c<6.5 (n=1189)\"]\n  rec3 [label =  \"outcome 2-hour glucose identified 1-4yr post baseline (n=452)\"]\n  rec4 [label = \"restrict to males (n=221)\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-0db38b0efa061252b1cd" style="width:960px;height:300px;" class="grViz html-widget "></div>
+<script type="application/json" data-for="htmlwidget-0db38b0efa061252b1cd">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HbA1c and 2-hour glucose within 6 months (baseline, n=2026)\"]\n  rec2 [label = \"baseline 2-hour glucose <11.1mmol/L & HbA1c<6.5 (n=1189)\"]\n  rec3 [label =  \"outcome 2-hour glucose identified 1-4yr post baseline (n=452)\"]\n  rec4 [label = \"restrict to males (n=221)\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -734,14 +734,18 @@ size of benefit
 </section>
 <section id="mediation-analysis" class="slide level2">
 <h2>Mediation analysis</h2>
+<div>
 <ul>
-<li>tool to disentangle potential causal pathways in data from clinical trials</li>
-<li>T4DM found a 40% reduction in diabetes with testosterone treatment</li>
-<li>also changes in body composition with T treatment (decreased fat mass, increased muscle mass)</li>
-<li>was it the testosterone treatment? Or the changes in body composition that led to the reduction in diabetes?</li>
+<li class="fragment">tool to disentangle potential causal pathways in data from clinical trials</li>
+<li class="fragment">T4DM found a 40% reduction in diabetes with testosterone treatment</li>
+<li class="fragment">also changes in body composition with T treatment (decreased fat mass, increased muscle mass)</li>
+<li class="fragment">was it the direct effect of testosterone treatment? Or the testosterone-induced changes in body composition?</li>
 </ul>
-
-<img data-src="mediation.PNG" class="r-stretch"><aside class="notes">
+</div>
+<div class="fragment">
+<p><img data-src="mediation.PNG"></p>
+</div>
+<aside class="notes">
 <p>In randomised controlled trials (RCTs), the mechanisms by which outcomes are induced by health interventions can be investigated by mediation analysis.1 Mediation analyses have emerged as a powerful tool to disentangle potential causal pathways in data from clinical trials. It has been widely applied in the field of psychology2 but has also been used in other fields to understand how treatments work in RCTs.3 They enable researchers to decompose the treatment effect into an indirect component mediated through given variable(s) and the remaining direct effect of treatment or effects of unmeasured mediators. Identifying these mediating variables can help clinicians refine and adapt to improve the effectiveness of interventions and guide their implementation.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
