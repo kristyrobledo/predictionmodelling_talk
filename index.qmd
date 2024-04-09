@@ -16,6 +16,7 @@ format:
     scrollable: false
     pdf-max-pages-per-slide: 1
     history: false # don't add each slide to browser history
+    self-contained: true
 bibliography: pres_bib.bib
 csl: apa-old-doi-prefix.csl
 execute:
