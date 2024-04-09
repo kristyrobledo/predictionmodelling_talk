@@ -235,10 +235,6 @@ basically - baseline risk + clinical trial effect -> personalised care -> policy
 :::
 
 
-::: footer
-Footers for comments, often with links to further resources. Doesn't show up when printing the slides.
-:::
-
 # Methods for developing predictive models
 
 
